@@ -34,21 +34,14 @@ namespace MemoryGame
 
         private void AssignCards()
         {
-            Label label;
-            int randomNum;
-            for(int i = 0; i < tlpImages.Controls.Count; i++)
+            foreach (Control control in tlpImages.Controls)
             {
-                if (tlpImages.Controls[i] is Label)
+                if (control is Label label)
                 {
-                    label = (Label)tlpImages.Controls[i]; 
+                    int randomNum = random.Next(cards.Count);
+                    label.Text = cards[randomNum];
+                    cards.RemoveAt(randomNum);
                 }
-                else
-                {
-                    continue;
-                }
-                randomNum = random.Next(0, cards.Count);
-                label.Text = cards[randomNum];
-                cards.RemoveAt(randomNum);
             }
         }
 
