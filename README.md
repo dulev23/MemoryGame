@@ -47,3 +47,6 @@ Memory Game е класична игра на концентрација и вн
 
 #### Интерфејс на HardMode
 ![HardModeWindow](https://github.com/dulev23/MemoryGame/assets/117026211/8b1df4e9-ae7a-4455-85f8-8c4dbd4d0493)
+
+## 3. Пример од завршена игра
+![CompletedGameExample](https://github.com/dulev23/MemoryGame/assets/117026211/612b75fc-ea2a-4b30-bed6-cb110c406e34)
