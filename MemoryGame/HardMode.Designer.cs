@@ -578,6 +578,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "HardMode";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HardMode";
             this.gbTable.ResumeLayout(false);
             this.tlpCards.ResumeLayout(false);

@@ -386,6 +386,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1000, 680);
             this.Name = "MediumMode";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MediumMode";
             this.groupBox1.ResumeLayout(false);
             this.tlpCards.ResumeLayout(false);

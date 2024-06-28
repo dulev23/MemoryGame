@@ -258,6 +258,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1000, 680);
             this.Name = "EasyMode";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EasyMode";
             this.groupBox1.ResumeLayout(false);
             this.tlpImages.ResumeLayout(false);
